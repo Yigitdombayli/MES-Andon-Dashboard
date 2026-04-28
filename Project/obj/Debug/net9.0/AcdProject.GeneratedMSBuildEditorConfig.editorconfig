@@ -24,10 +24,30 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9kYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dombayli/AcdProject/Project/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/home/dombayli/AcdProject/Project/Views/Home/DashboardaAktar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EYXNoYm9hcmRhQWt0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dombayli/AcdProject/Project/Views/Home/wizard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS93aXphcmQuY3NodG1s
+[/home/dombayli/AcdProject/Project/Views/Home/MakineSpEslesme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9NYWtpbmVTcEVzbGVzbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dombayli/AcdProject/Project/Views/Home/SablonKayit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TYWJsb25LYXlpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dombayli/AcdProject/Project/Views/Home/SablonTasarim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TYWJsb25UYXNhcmltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dombayli/AcdProject/Project/Views/Home/SpTasarim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TcFRhc2FyaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dombayli/AcdProject/Project/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dombayli/AcdProject/Project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

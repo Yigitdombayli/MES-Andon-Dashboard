@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/home/dombayli/AcdProject/Project/wwwroot/app.js",
-      "PackagePath": "staticwebassets/app.js"
-    },
-    {
       "Id": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.css",
       "PackagePath": "staticwebassets/dashboard.css"
     },
@@ -19,10 +15,6 @@
     {
       "Id": "/home/dombayli/AcdProject/Project/wwwroot/style.css",
       "PackagePath": "staticwebassets/style.css"
-    },
-    {
-      "Id": "/home/dombayli/AcdProject/Project/wwwroot/wizard.js",
-      "PackagePath": "staticwebassets/wizard.js"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.AcdProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

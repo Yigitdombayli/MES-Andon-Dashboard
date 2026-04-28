@@ -1,0 +1,103 @@
+@{
+    ViewData["Title"] = "Şablon Kayıt";
+}
+
+<div class="container-fluid">
+    <h3 class="mb-4 text-warning">Adım 3: Şablonu Kaydet</h3>
+    <p class="text-muted">Taslağını hazırladığınız şablonu isimlendirip kaydedin.</p>
+    
+    <div id="noDraftAlert" class="alert alert-danger d-none">
+        Henüz tamamlanmış bir taslak yok veya eşleştirme yapılmadı. Lütfen <a href="/Home/SablonTasarim" class="alert-link">Şablon Tasarım</a> adımlarını tamamlayın.
+    </div>
+
+    <div id="saveContent" class="d-none">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel p-4 border border-secondary rounded">
+                    <h5 class="text-info mb-4">Şablon Bilgileri</h5>
+                    <ul class="list-group list-group-flush bg-dark text-light border-secondary mb-4">
+                        <li class="list-group-item bg-dark text-light border-secondary"><strong>Layout:</strong> <span id="summaryLayout"></span></li>
+                        <li class="list-group-item bg-dark text-light border-secondary"><strong>Seçilen Makine Sayısı:</strong> <span id="summaryMachineCount"></span></li>
+                        <li class="list-group-item bg-dark text-light border-secondary"><strong>Eşleşen SP Sayısı:</strong> <span id="summaryMappingCount"></span></li>
+                    </ul>
+
+                    <div class="mb-4">
+                        <label class="form-label fs-5">Şablon Adı:</label>
+                        <input type="text" id="templateNameInput" class="form-control form-control-lg bg-dark text-light border-secondary" placeholder="Örn: Gündüz Vardiyası Şablonu" />
+                    </div>
+
+                    <button id="btnSaveFinalTemplate" class="btn btn-success btn-lg w-100 fw-bold"><i class="bi bi-save"></i> Şablonu Kaydet ve Bitir</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-warning border-warning bg-dark text-warning">
+                    <i class="bi bi-exclamation-triangle me-2"></i>
+                    <strong>Hatırlatma:</strong> Şablonu kaydettikten sonra <strong>"Dashboarda Aktar"</strong> menüsünden seçip yayına alabilirsiniz.
+                </div>
+            </div>
+        </div>
+        <div class="mt-4">
+            <a href="/Home/MakineSpEslesme" class="btn btn-secondary px-5"><i class="bi bi-arrow-left"></i> Geri</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const draft = JSON.parse(sessionStorage.getItem("draftTemplate"));
+            
+            if (!draft || !draft.mapping || draft.mapping.length === 0) {
+                document.getElementById("noDraftAlert").classList.remove("d-none");
+                return;
+            }
+
+            document.getElementById("saveContent").classList.remove("d-none");
+            
+            document.getElementById("summaryLayout").innerText = draft.layout;
+            document.getElementById("summaryMachineCount").innerText = draft.selectedMachines ? draft.selectedMachines.length : 0;
+            document.getElementById("summaryMappingCount").innerText = draft.mapping.length;
+
+            if (draft.templateName) {
+                document.getElementById("templateNameInput").value = draft.templateName;
+            }
+
+            document.getElementById("btnSaveFinalTemplate").addEventListener("click", () => {
+                const templateName = document.getElementById("templateNameInput").value.trim();
+                if (!templateName) {
+                    alert("Lütfen şablon için bir isim girin.");
+                    return;
+                }
+
+                // Global tasarımlar SP Tasarım menüsünde yapılıyor ve andonSpDesigns'a kaydoluyor.
+                // Bu yüzden şablonda sadece eşleştirmeleri (hangi makinede hangi spId var) tutmak yeterli.
+                // İhtiyaç halinde Dashboard bu spId'yi kullanarak global tasarımlardan render edecek.
+                
+                let allTemplates = JSON.parse(localStorage.getItem("andonTemplates")) || [];
+
+                const newTemplate = {
+                    templateName: templateName,
+                    layout: draft.layout,
+                    mapping: draft.mapping,
+                    createdAt: new Date().toISOString()
+                };
+
+                if (draft.editIndex !== undefined && draft.editIndex !== null) {
+                    // Update existing template
+                    allTemplates[draft.editIndex] = newTemplate;
+                } else {
+                    // Add new template
+                    allTemplates.push(newTemplate);
+                }
+                
+                localStorage.setItem("andonTemplates", JSON.stringify(allTemplates));
+
+                // Taslağı temizle
+                sessionStorage.removeItem("draftTemplate");
+
+                alert("Şablon başarıyla kaydedildi! Dashboarda Aktar ekranına yönlendiriliyorsunuz.");
+                window.location.href = "/Home/DashboardaAktar"; 
+            });
+        });
+    </script>
+}

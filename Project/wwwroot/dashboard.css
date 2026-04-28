@@ -1,19 +1,58 @@
 body {
-    background-color: #0a0a0a; 
+    background-color: #050505;
+    background-image: radial-gradient(circle at 50% 0%, #111a24 0%, #050505 100%);
     color: #ffffff;
     margin: 0;
     padding: 1vw; 
-    font-family: 'Rajdhani', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     box-sizing: border-box;
     overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+#dashboardTopbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vw;
+    padding: 0.5vw 1.5vw;
+    background: rgba(15, 17, 21, 0.8);
+    border: 0.1vw solid #1e222a;
+    border-radius: 0.5vw;
+    box-shadow: 0 0.5vw 1vw rgba(0,0,0,0.5);
+    flex-shrink: 0;
+}
+
+#templateNameDisplay {
+    color: #38bdf8;
+    font-size: 1.5vw;
+    font-weight: 700;
+    letter-spacing: 0.1vw;
+    text-transform: uppercase;
+}
+
+.back-btn {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    transition: color 0.2s;
+}
+
+.back-btn:hover {
+    color: #fff;
 }
 
 #mainDashboardContainer {
+    flex: 1;
     display: grid;
-    gap: 1vw; 
+    gap: 1.5vw; 
     width: 100%;
-    height: 100%;
+    min-height: 0;
 }
 
 .machine-card {
@@ -42,7 +81,6 @@ body {
     flex: 1;
     position: relative;
     min-height: 0;
-    padding: 0.5vw;
 }
 
 .grid-stack {

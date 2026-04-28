@@ -8,19 +8,15 @@ namespace AcdProject.Project.Controllers
     {
         public IActionResult Index()
         {
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "andonData.json");
-            string jsonString = System.IO.File.ReadAllText(filePath);
-            var viewModel = JsonSerializer.Deserialize<AndonViewModel>(jsonString, new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            });
-            return View(viewModel);
+            return RedirectToAction("DashboardaAktar");
         }
-        public IActionResult Dashboard()
+
+        public IActionResult DashboardaAktar()
         {
             return View();
         }
-         public IActionResult wizard()
+
+        public IActionResult SpTasarim()
         {
             string filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "andonData.json");
             string jsonString = System.IO.File.ReadAllText(filePath);
@@ -29,6 +25,38 @@ namespace AcdProject.Project.Controllers
                 PropertyNameCaseInsensitive = true
             });
             return View(viewModel);
+        }
+
+        public IActionResult SablonTasarim()
+        {
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "andonData.json");
+            string jsonString = System.IO.File.ReadAllText(filePath);
+            var viewModel = JsonSerializer.Deserialize<AndonViewModel>(jsonString, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+            return View(viewModel);
+        }
+
+        public IActionResult MakineSpEslesme()
+        {
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "andonData.json");
+            string jsonString = System.IO.File.ReadAllText(filePath);
+            var viewModel = JsonSerializer.Deserialize<AndonViewModel>(jsonString, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+            return View(viewModel);
+        }
+
+        public IActionResult SablonKayit()
+        {
+            return View();
+        }
+
+        public IActionResult Dashboard()
+        {
+            return View();
         }
     }
 }
