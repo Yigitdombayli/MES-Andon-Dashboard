@@ -1,0 +1,192 @@
+@model AcdProject.Models.Entities.AndonViewModel 
+@{ Layout = null; }
+<!DOCTYPE html>
+
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8" />
+        <!--Bu satır, sayfanın karakter kodlamasını belirler.
+    Ne İş Yapar? Tarayıcıya, sayfadaki metinleri hangi "alfabe" setini kullanarak okuması gerektiğini söyler.
+    Neden Önemli? Eğer bu satırı yazmazsanız veya yanlış yazarsanız; ö, ç, ş, ı, ğ, ü gibi Türkçe karakterler "" veya "Ã¼" gibi garip semboller şeklinde görünebilir.
+    UTF-8, dünyadaki neredeyse tüm dilleri ve emojileri kapsayan evrensel standarttır. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bu satır, sayfanın mobil uyumluluğunu (Responsive) kontrol eder.
+    width=device-width: Sayfanın genişliğini, kullanılan cihazın (telefon, tablet, bilgisayar) ekran genişliğine eşitler.
+    initial-scale=1.0: Sayfa ilk açıldığında yakınlaştırma (zoom) seviyesinin normal (%100) olmasını sağlar.
+    Neden Önemli? Bu satır olmazsa, modern telefonlar web sitesini devasa bir masaüstü ekranıymış
+    gibi algılar ve her şeyi küçücük gösterir. Bu satır eklendiğinde ise site mobilde "okunabilir"
+    ve ekrana tam oturan bir yapıya bürünür. -->
+        <title>ACD Project(ANDON)</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/gridstack@8.2.3/dist/gridstack.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="~/style.css" asp-append-version="true" />
+    </head>
+    <body class="bg-body-tertiary p-4">
+        <!-- p-4 padding ekler bg arkaplan için -->
+        <div class="container-fluid wireframe-container p-4">
+            <!-- container-fluid boostrap sınıfı
+    ekrandaki containerın ekrana göre scale olmasını sağlar
+    wireframe-container (Özel Sınıf)
+    Görevi: Bu muhtemelen projeyi yazan kişinin (veya sizin) kendi CSS dosyasında tanımladığı özel bir sınıftır. * Ne anlama gelir? "Wireframe" genellikle tasarım
+    aşamasındaki taslak yapıları ifade eder.
+    Bu sınıfa CSS'te muhtemelen border: 1px solid black; (kenarlık) veya belirli bir min-height (minimum yükseklik) verilmiştir ki sayfanın iskeleti net görünsün. -->
+            <div class="row h-100 g-4">
+                <div class="col-md-2">
+                    <div class="panel h-100 p-3">
+                        <h5 class="panel-title">Makine Listesi</h5>
+                        <div class="machineList mt-4">
+                            @foreach(var machine in Model.Machines) {
+                            <div class="form-check mb-2">
+                                <input
+                                    class="form-check-input machine-checkbox"
+                                    type="checkbox"
+                                    value="@machine.Name"
+                                    id="@machine.Id"
+                                />
+                                <label
+                                    class="form-check-label"
+                                    for="@machine.Id"
+                                    >@machine.Name</label
+                                >
+                            </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="panel h-100 p-3 overflow-auto">
+                        <h5 class="panel-title">Layout Seçim</h5>
+                        <div class="layoutList mt-4">
+                            <div class="form-check mb-2">
+                                <input
+                                    class="form-check-input layout-radio"
+                                    type="radio"
+                                    name="layout"
+                                    value="2x2"
+                                    id="l1"
+                                />
+                                <label class="form-check-label" for="l1"
+                                    >2x2</label
+                                >
+                            </div>
+                            <div class="form-check mb-2">
+                                <input
+                                    class="form-check-input layout-radio"
+                                    type="radio"
+                                    name="layout"
+                                    value="4x3"
+                                    id="l2"
+                                />
+                                <label class="form-check-label" for="l2"
+                                    >4x3</label
+                                >
+                            </div>
+                            <div class="form-check mb-2">
+                                <input
+                                    class="form-check-input layout-radio"
+                                    type="radio"
+                                    name="layout"
+                                    value="3x3"
+                                    id="l3"
+                                />
+                                <label class="form-check-label" for="l3"
+                                    >3x3</label
+                                >
+                            </div>
+                            <div class="form-check mb-2">
+                                <input
+                                    class="form-check-input layout-radio"
+                                    type="radio"
+                                    name="layout"
+                                    value="4x4"
+                                    id="l4"
+                                />
+                                <label class="form-check-label" for="l4"
+                                    >4x4</label
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="panel h-100 p-3 overflow-auto">
+                        <h5 class="panel-title">Şablon Seçim</h5>
+                        <div id="templateList" class="mt-4">
+                            @foreach(var template in Model.Templates) {
+                            <div class="form-check mb-2">
+                                <input
+                                    class="form-check-input template-radio"
+                                    type="radio"
+                                    name="template"
+                                    value="@template.Id"
+                                    id="t_@template.Id"
+                                />
+                                <label
+                                    class="form-check-label"
+                                    for="t_@template.Id"
+                                    >@template.Name</label
+                                >
+                            </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column gap-3">
+                    <div class="panel flex-grow-1 p-3 overflow-auto">
+                        <h5 class="panel-title">Makine Kart Ayarlama Ekranı</h5>
+                        <div style="min-width: fit-content">
+                            <div
+                                id="cardDesignerArea"
+                                class="grid-stack"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="panel p-3 overflow-auto">
+                        <h5 class="panel-title">Gelen Veriler:</h5>
+
+                        <div
+                            id="incomingDataPool"
+                            class="data-pool mt-2 min-h-50"
+                        >
+                            <span class="text-muted small"
+                                >Önce bir şablon seçiniz...</span
+                            >
+                        </div>
+                        <div class="text-end mt-2">
+                            <button
+                                id="btnSubmit"
+                                class="btn btn-outline-light rounded-4"
+                            >
+                                Gönder
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--1. row (Bootstrap Satırı)
+        Görevi: İçine gelecek olan sütunları (col) yan yana dizebilmek için bir yuva görevi görür.
+        Teknik: CSS tarafında display: flex; ve flex-wrap: wrap; özelliklerini uygular. Yani içindeki elemanlar sığmazsa alt satıra geçer.
+    2. h-100 (Yükseklik)
+        Görevi: "Height 100%" anlamına gelir.
+        Ne İş Yapar? Bu satırın yüksekliğini, içinde bulunduğu kapsayıcının (bir önceki mesajda bahsettiğimiz container-fluid gibi) yüksekliğinin tamamını kaplayacak şekilde ayarlar.
+        Eğer dış kutu tüm ekranı kaplıyorsa, bu satır da tüm ekranı kaplar.
+    3. g-4 (Gutter - Boşluk)
+        Görevi: "Gutter" yani sütunlar arasındaki boşluğu ayarlar.
+        Ne İş Yapar? Bu satırın içine col (sütun) sınıfları eklediğinizde, bu sütunların birbirine yapışmasını engeller. 4 değeri (yaklaşık 24px) hem dikeyde hem yatayda elemanların arasına mesafe koyar. -->
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/gridstack@8.2.3/dist/gridstack-all.js"></script>
+
+        <script>
+            const serverTemplates = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.Templates));
+        </script>
+
+        <script src="/app.js"></script>
+    </body>
+</html>

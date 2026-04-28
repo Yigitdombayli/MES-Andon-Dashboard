@@ -1,0 +1,33 @@
+{
+  "Machines": [
+    { "Id": "M01", "Name": "Makine 1 (CNC)" },
+    { "Id": "M02", "Name": "Makine 2 (Lazer Kesim)" },
+    { "Id": "M03", "Name": "Makine 3 (Pres Hattı)" },
+    { "Id": "M04", "Name": "Makine 4 (Paketleme)" },
+    { "Id": "M05", "Name": "Makine 5 (Fırın)" },
+    { "Id": "M06", "Name": "Makine 6 (CNC)" },
+    { "Id": "M07", "Name": "Makine 7 (CNC)" },
+    { "Id": "M08", "Name": "Makine 8 (CNC)" },
+    { "Id": "M09", "Name": "Makine 9 (CNC)" },
+    { "Id": "M010", "Name": "Makine 10 (CNC)" },
+    { "Id": "M011", "Name": "Makine 11 (CNC)" },
+    { "Id": "M012", "Name": "Makine 12 (CNC)" }
+  ],
+  "Templates": [
+    {
+      "Id": "A",
+      "Name": "A Şablonu",
+      "Metrics": ["OEE Değeri", "Makine ID", "Üretim", "Stok"]
+    },
+    {
+      "Id": "B",
+      "Name": "B Şablonu",
+      "Metrics": ["Duruş Sayısı", "Makine ID", "Hedef", "Gerçekleşen"]
+    },
+    {
+      "Id": "C",
+      "Name": "C Şablonu",
+      "Metrics": ["Sıcaklık", "Basınç", "Durum", "OEE Değeri"]
+    }
+  ]
+}

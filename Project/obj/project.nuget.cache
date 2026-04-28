@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "b+wDVnmXVbk=",
+  "success": true,
+  "projectFilePath": "/home/dombayli/AcdProject/Project/AcdProject.csproj",
+  "expectedPackageFiles": [
+    "/home/dombayli/.nuget/packages/microsoft.aspnetcore.openapi/9.0.14/microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512",
+    "/home/dombayli/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

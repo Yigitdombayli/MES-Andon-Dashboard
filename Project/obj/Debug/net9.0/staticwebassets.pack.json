@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/dombayli/AcdProject/Project/wwwroot/app.js",
+      "PackagePath": "staticwebassets/app.js"
+    },
+    {
+      "Id": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.css",
+      "PackagePath": "staticwebassets/dashboard.css"
+    },
+    {
+      "Id": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.js",
+      "PackagePath": "staticwebassets/dashboard.js"
+    },
+    {
+      "Id": "/home/dombayli/AcdProject/Project/wwwroot/event.js",
+      "PackagePath": "staticwebassets/event.js"
+    },
+    {
+      "Id": "/home/dombayli/AcdProject/Project/wwwroot/style.css",
+      "PackagePath": "staticwebassets/style.css"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.AcdProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.AcdProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.AcdProject.props",
+      "PackagePath": "build\\AcdProject.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.AcdProject.props",
+      "PackagePath": "buildMultiTargeting\\AcdProject.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.AcdProject.props",
+      "PackagePath": "buildTransitive\\AcdProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

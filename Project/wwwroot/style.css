@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap');
+
+body {
+    background-color: #121212; 
+    color: #cfcfcf;
+    font-family: 'Rajdhani', 'Segoe UI', Tahoma, sans-serif;
+}
+
+.panel {
+    background: #1a1a1a;
+    border: 1px solid #333; 
+    border-radius: 4px; 
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.8); 
+}
+
+.panel-title {
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #fd7e14; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    border-bottom: 1px solid #333;
+    padding-bottom: 1vh;
+    margin-bottom: 1.5vh;
+}
+
+#cardDesignerArea {
+    min-height: 400px;
+    background-color: #0a0a0a;
+    background-size: 20px 20px;
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    border: 1px dashed #444;
+}
+
+.grid-stack-item-content {
+    background: #222;
+    border: 1px solid #555;
+    border-top: 3px solid #0dcaf0; 
+    border-radius: 2px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+#btnSubmit {
+    background-color: #fd7e14;
+    color: #fff;
+    border: none;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px !important;
+    transition: all 0.2s ease-in-out;
+    height: 7vh;
+    width: 7vw;
+}
+
+#btnSubmit:hover {
+    background-color: #e0690c;
+    box-shadow: 0 0 10px rgba(253, 126, 20, 0.5);
+}
+
+.ui-draggable-dragging {
+    opacity: 0.8;
+    z-index: 1000 !important;
+}
+
+#incomingDataPool {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+    padding: 10px 0;
+}
+
+#incomingDataPool .grid-stack-item {
+    position: relative !important;
+    width: clamp(80px, 8vw, 120px) !important; 
+    aspect-ratio: 1 / 1 !important; 
+    height: auto !important; 
+    margin: 0 !important;
+}
+
+.grid-stack-item {
+    /* GridStack tarafından kontrol edilir */
+}
+
+.grid-stack-item-content {
+    background: #2b3035;
+    border: 1px solid #495057; 
+    border-radius: 0.4vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: clamp(0.8rem, 1vw, 1.2rem); 
+}
+
+#incomingDataPool {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    padding: 1vw 0;
+    align-items: stretch;
+}
+
+#incomingDataPool .grid-stack-item {
+    position: relative !important; 
+    width: clamp(80px, 7vw, 300px) !important; 
+    aspect-ratio: 1 / 1 !important; 
+    height: auto !important; 
+    margin: 0 !important;
+}
+
+#incomingDataPool .grid-stack-item-content {
+    position: absolute !important;
+    inset: 0 !important;
+    background-color: #222 !important;
+    border: 1px solid #444 !important;
+    border-radius: 0.4vw !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 0.2vw !important;
+    word-break: break-word !important;
+    font-size: clamp(0.7rem, 0.9vw, 2vw) !important; 
+    color: #e0e0e0 !important;
+    line-height: 1.2;
+}
+
+.machineList .form-check-label {
+    margin-left: 0.5vw;
+    font-size: 0.9vw;
+}
+
+.layoutList .form-check-label {
+    font-size: 0.9vw;
+    margin-left: 0.5vw;
+
+}
+
+#templateList .form-check-label {
+    font-size: 0.9vw;
+    margin-left: 0.5vw;
+}
+
+.machineList .form-check-input,
+.layoutList .form-check-input,
+#templateList .form-check-input {
+    width: 0.9vw;
+    height: 0.9vw;
+}
+
