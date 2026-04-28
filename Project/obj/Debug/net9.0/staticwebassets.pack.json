@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/style.css"
     },
     {
+      "Id": "/home/dombayli/AcdProject/Project/wwwroot/wizard.js",
+      "PackagePath": "staticwebassets/wizard.js"
+    },
+    {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.AcdProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

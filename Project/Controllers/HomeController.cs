@@ -20,5 +20,15 @@ namespace AcdProject.Project.Controllers
         {
             return View();
         }
+         public IActionResult wizard()
+        {
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "andonData.json");
+            string jsonString = System.IO.File.ReadAllText(filePath);
+            var viewModel = JsonSerializer.Deserialize<AndonViewModel>(jsonString, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+            return View(viewModel);
+        }
     }
 }

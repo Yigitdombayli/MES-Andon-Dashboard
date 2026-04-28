@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bg702h4pxf</Fingerprint>
-      <Integrity>u8ul5Qng3QRo8GJHBtlORDaCe8ss9U6eO2FkVP/w+qY=</Integrity>
+      <Fingerprint>itcp90403o</Fingerprint>
+      <Integrity>2gn4p5oUwfiRL/WtSnx+vYkROK/On65OJEA+Zk1QVfo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.js'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0vpa39g7ux</Fingerprint>
-      <Integrity>bAi74kY5mHQk5WCgG+DyxcCX4SttwLxmpWyr3KAd1OM=</Integrity>
+      <Fingerprint>2x2e25tfua</Fingerprint>
+      <Integrity>uvM8ayiqK9iDLByepHJTu7t+jZjJuHJQO3zsxA3nyO8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dashboard.js'))</OriginalItemSpec>
@@ -89,6 +89,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\wizard.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AcdProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AcdProject</BasePath>
+      <RelativePath>wizard.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lty6swodaa</Fingerprint>
+      <Integrity>ydFbLDFyBrV6GiTyRUNHUwlMuztzEQcJMe3b5Q6OZ6M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\wizard.js'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

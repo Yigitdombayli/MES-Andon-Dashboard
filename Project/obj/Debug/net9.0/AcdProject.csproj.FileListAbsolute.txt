@@ -69,7 +69,8 @@
 /home/dombayli/AcdProject/Project/obj/Debug/net9.0/AcdProject.RazorAssemblyInfo.cs
 /home/dombayli/AcdProject/Project/bin/Debug/net9.0/Data/andonData.json
 /home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz
-/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/ln4xtfq558-bg702h4pxf.gz
 /home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/tzzp4zx537-3z40r45xt7.gz
-/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-0vpa39g7ux.gz
 /home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz
+/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/ln4xtfq558-itcp90403o.gz
+/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-2x2e25tfua.gz
+/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/ymdu3we01c-lty6swodaa.gz

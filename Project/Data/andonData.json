@@ -13,21 +13,36 @@
     { "Id": "M011", "Name": "Makine 11 (CNC)" },
     { "Id": "M012", "Name": "Makine 12 (CNC)" }
   ],
-  "Templates": [
+  "Procedures": [
     {
       "Id": "A",
-      "Name": "A Şablonu",
+      "Name": "A SP",
       "Metrics": ["OEE Değeri", "Makine ID", "Üretim", "Stok"]
     },
     {
       "Id": "B",
-      "Name": "B Şablonu",
+      "Name": "B SP",
       "Metrics": ["Duruş Sayısı", "Makine ID", "Hedef", "Gerçekleşen"]
     },
     {
       "Id": "C",
-      "Name": "C Şablonu",
+      "Name": "C SP",
       "Metrics": ["Sıcaklık", "Basınç", "Durum", "OEE Değeri"]
+    }
+  ],
+
+    "Templates": [
+    {
+      "Id": "A",
+      "Name": "A Teplates"
+    },
+    {
+      "Id": "B",
+      "Name": "B Templates"
+    },
+    {
+      "Id": "C",
+      "Name": "C Templates"
     }
   ]
 }
