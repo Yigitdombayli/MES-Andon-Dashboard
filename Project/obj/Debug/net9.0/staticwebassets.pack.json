@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.css",
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.css",
       "PackagePath": "staticwebassets/dashboard.css"
     },
     {
-      "Id": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.js",
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js",
       "PackagePath": "staticwebassets/dashboard.js"
     },
     {
-      "Id": "/home/dombayli/AcdProject/Project/wwwroot/event.js",
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/event.js",
       "PackagePath": "staticwebassets/event.js"
     },
     {
-      "Id": "/home/dombayli/AcdProject/Project/wwwroot/style.css",
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css",
       "PackagePath": "staticwebassets/style.css"
     },
     {

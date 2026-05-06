@@ -80,11 +80,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dombayli/AcdProject/Project/AcdProject.csproj",
+      "projectUniqueName": "/home/dombayli/MES-Andon-Dashboard/Project/AcdProject.csproj",
       "projectName": "AcdProject",
-      "projectPath": "/home/dombayli/AcdProject/Project/AcdProject.csproj",
+      "projectPath": "/home/dombayli/MES-Andon-Dashboard/Project/AcdProject.csproj",
       "packagesPath": "/home/dombayli/.nuget/packages/",
-      "outputPath": "/home/dombayli/AcdProject/Project/obj/",
+      "outputPath": "/home/dombayli/MES-Andon-Dashboard/Project/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/dombayli/.nuget/NuGet/NuGet.Config"

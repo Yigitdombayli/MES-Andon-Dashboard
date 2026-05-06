@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "49pK8+MKnb2StlVMWz7R8NcVYhQ87EzYvdRO3Rkre18=",
+  "Hash": "Qsm1eDVcToJzSbPQ7OjL7kAj9x88nTgvyZ7za+8Om/s=",
   "Source": "AcdProject",
   "BasePath": "_content/AcdProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AcdProject/wwwroot",
       "Source": "AcdProject",
-      "ContentRoot": "/home/dombayli/AcdProject/Project/wwwroot/",
+      "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/",
       "BasePath": "_content/AcdProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AcdProject",
       "RelativePath": "style#[.{fingerprint=f2aduipssc}]?.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/dombayli/AcdProject/Project/wwwroot/style.css",
+      "RelatedAsset": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "khny7yxa2n",
       "Integrity": "mJXspA8P67LfM8gnWKNWVhL06Yw6jloeFoqqSqnWgaE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/dombayli/AcdProject/Project/wwwroot/style.css"
+      "OriginalItemSpec": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css"
     },
     {
-      "Identity": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AcdProject",
       "RelativePath": "event#[.{fingerprint=w7vtlv6tb4}]?.js.gz",
       "AssetKind": "All",
@@ -49,41 +49,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/dombayli/AcdProject/Project/wwwroot/event.js",
+      "RelatedAsset": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/event.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "h9osms5995",
       "Integrity": "K0A16Ntfjm/Vn5lAspp8KpM75ZfavlW944BU9FM+7cc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/dombayli/AcdProject/Project/wwwroot/event.js"
+      "OriginalItemSpec": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/event.js"
     },
     {
-      "Identity": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-af9437nz23.gz",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AcdProject",
-      "RelativePath": "dashboard#[.{fingerprint=af9437nz23}]?.js.gz",
+      "RelativePath": "dashboard#[.{fingerprint=4jr1x16bsw}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.js",
+      "RelatedAsset": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "m50bhr72mr",
-      "Integrity": "dj3NAyXNiJKavTQlisrEvvtkeZrb+zDr/cM0RMJzPjQ=",
+      "Fingerprint": "0rhr9kww43",
+      "Integrity": "nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.js"
+      "OriginalItemSpec": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js"
     },
     {
-      "Identity": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AcdProject",
       "RelativePath": "dashboard#[.{fingerprint=rjxmdnswwr}]?.css.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.css",
+      "RelatedAsset": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "h8ar1b620m",
       "Integrity": "kflQ/SiY1EAKyLJKGDisyaAH3qWmhQsSVGPqs+Ei67M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.css"
+      "OriginalItemSpec": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.css"
     },
     {
-      "Identity": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.css",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.css",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/dombayli/AcdProject/Project/wwwroot/",
+      "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/",
       "BasePath": "_content/AcdProject",
       "RelativePath": "dashboard#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot/dashboard.css"
     },
     {
-      "Identity": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.js",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/dombayli/AcdProject/Project/wwwroot/",
+      "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/",
       "BasePath": "_content/AcdProject",
       "RelativePath": "dashboard#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -136,17 +136,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "af9437nz23",
-      "Integrity": "tpd1BS8V60xnTNRT8cKLxiX8EBHEfCKxJAcnNSnmWLE=",
+      "Fingerprint": "4jr1x16bsw",
+      "Integrity": "YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/dashboard.js"
     },
     {
-      "Identity": "/home/dombayli/AcdProject/Project/wwwroot/event.js",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/event.js",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/dombayli/AcdProject/Project/wwwroot/",
+      "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/",
       "BasePath": "_content/AcdProject",
       "RelativePath": "event#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot/event.js"
     },
     {
-      "Identity": "/home/dombayli/AcdProject/Project/wwwroot/style.css",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/dombayli/AcdProject/Project/wwwroot/",
+      "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/",
       "BasePath": "_content/AcdProject",
       "RelativePath": "style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -187,13 +187,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "dashboard.af9437nz23.js",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-af9437nz23.gz",
+      "Route": "dashboard.4jr1x16bsw.js",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000350754121"
+          "Quality": "0.000355366027"
         }
       ],
       "ResponseHeaders": [
@@ -203,15 +203,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2850"
+          "Value": "2813"
         },
         {
           "Name": "ETag",
-          "Value": "\"dj3NAyXNiJKavTQlisrEvvtkeZrb+zDr/cM0RMJzPjQ=\""
+          "Value": "\"nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:11 GMT"
+          "Value": "Wed, 06 May 2026 10:59:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -231,13 +231,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"tpd1BS8V60xnTNRT8cKLxiX8EBHEfCKxJAcnNSnmWLE=\""
+          "Value": "W/\"YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "af9437nz23"
+          "Value": "4jr1x16bsw"
         },
         {
           "Name": "label",
@@ -245,13 +245,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tpd1BS8V60xnTNRT8cKLxiX8EBHEfCKxJAcnNSnmWLE="
+          "Value": "sha256-YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50="
         }
       ]
     },
     {
-      "Route": "dashboard.af9437nz23.js",
-      "AssetFile": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.js",
+      "Route": "dashboard.4jr1x16bsw.js",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -260,7 +260,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8426"
+          "Value": "8341"
         },
         {
           "Name": "Content-Type",
@@ -268,11 +268,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tpd1BS8V60xnTNRT8cKLxiX8EBHEfCKxJAcnNSnmWLE=\""
+          "Value": "\"YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:11 GMT"
+          "Value": "Wed, 06 May 2026 10:59:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -282,7 +282,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "af9437nz23"
+          "Value": "4jr1x16bsw"
         },
         {
           "Name": "label",
@@ -290,13 +290,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tpd1BS8V60xnTNRT8cKLxiX8EBHEfCKxJAcnNSnmWLE="
+          "Value": "sha256-YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50="
         }
       ]
     },
     {
-      "Route": "dashboard.af9437nz23.js.gz",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-af9437nz23.gz",
+      "Route": "dashboard.4jr1x16bsw.js.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -305,7 +305,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2850"
+          "Value": "2813"
         },
         {
           "Name": "Content-Type",
@@ -313,11 +313,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dj3NAyXNiJKavTQlisrEvvtkeZrb+zDr/cM0RMJzPjQ=\""
+          "Value": "\"nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:11 GMT"
+          "Value": "Wed, 06 May 2026 10:59:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -335,7 +335,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "af9437nz23"
+          "Value": "4jr1x16bsw"
         },
         {
           "Name": "label",
@@ -343,13 +343,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dj3NAyXNiJKavTQlisrEvvtkeZrb+zDr/cM0RMJzPjQ="
+          "Value": "sha256-nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s="
         }
       ]
     },
     {
       "Route": "dashboard.css",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -372,7 +372,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:09 GMT"
+          "Value": "Wed, 06 May 2026 09:54:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -404,7 +404,7 @@
     },
     {
       "Route": "dashboard.css",
-      "AssetFile": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.css",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -425,7 +425,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:09 GMT"
+          "Value": "Wed, 06 May 2026 09:54:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -441,7 +441,7 @@
     },
     {
       "Route": "dashboard.css.gz",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -462,7 +462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:09 GMT"
+          "Value": "Wed, 06 May 2026 09:54:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -486,12 +486,12 @@
     },
     {
       "Route": "dashboard.js",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-af9437nz23.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000350754121"
+          "Quality": "0.000355366027"
         }
       ],
       "ResponseHeaders": [
@@ -501,15 +501,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2850"
+          "Value": "2813"
         },
         {
           "Name": "ETag",
-          "Value": "\"dj3NAyXNiJKavTQlisrEvvtkeZrb+zDr/cM0RMJzPjQ=\""
+          "Value": "\"nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:11 GMT"
+          "Value": "Wed, 06 May 2026 10:59:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -529,19 +529,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"tpd1BS8V60xnTNRT8cKLxiX8EBHEfCKxJAcnNSnmWLE=\""
+          "Value": "W/\"YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tpd1BS8V60xnTNRT8cKLxiX8EBHEfCKxJAcnNSnmWLE="
+          "Value": "sha256-YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50="
         }
       ]
     },
     {
       "Route": "dashboard.js",
-      "AssetFile": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.js",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -550,7 +550,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8426"
+          "Value": "8341"
         },
         {
           "Name": "Content-Type",
@@ -558,11 +558,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tpd1BS8V60xnTNRT8cKLxiX8EBHEfCKxJAcnNSnmWLE=\""
+          "Value": "\"YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:11 GMT"
+          "Value": "Wed, 06 May 2026 10:59:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -572,13 +572,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tpd1BS8V60xnTNRT8cKLxiX8EBHEfCKxJAcnNSnmWLE="
+          "Value": "sha256-YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50="
         }
       ]
     },
     {
       "Route": "dashboard.js.gz",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-af9437nz23.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -587,7 +587,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2850"
+          "Value": "2813"
         },
         {
           "Name": "Content-Type",
@@ -595,11 +595,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dj3NAyXNiJKavTQlisrEvvtkeZrb+zDr/cM0RMJzPjQ=\""
+          "Value": "\"nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:11 GMT"
+          "Value": "Wed, 06 May 2026 10:59:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -617,13 +617,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dj3NAyXNiJKavTQlisrEvvtkeZrb+zDr/cM0RMJzPjQ="
+          "Value": "sha256-nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s="
         }
       ]
     },
     {
       "Route": "dashboard.rjxmdnswwr.css",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -646,7 +646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:09 GMT"
+          "Value": "Wed, 06 May 2026 09:54:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -686,7 +686,7 @@
     },
     {
       "Route": "dashboard.rjxmdnswwr.css",
-      "AssetFile": "/home/dombayli/AcdProject/Project/wwwroot/dashboard.css",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -707,7 +707,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:09 GMT"
+          "Value": "Wed, 06 May 2026 09:54:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -731,7 +731,7 @@
     },
     {
       "Route": "dashboard.rjxmdnswwr.css.gz",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -752,7 +752,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Apr 2026 09:42:09 GMT"
+          "Value": "Wed, 06 May 2026 09:54:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -784,7 +784,7 @@
     },
     {
       "Route": "event.js",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -839,7 +839,7 @@
     },
     {
       "Route": "event.js",
-      "AssetFile": "/home/dombayli/AcdProject/Project/wwwroot/event.js",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/event.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -876,7 +876,7 @@
     },
     {
       "Route": "event.js.gz",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -921,7 +921,7 @@
     },
     {
       "Route": "event.w7vtlv6tb4.js",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -984,7 +984,7 @@
     },
     {
       "Route": "event.w7vtlv6tb4.js",
-      "AssetFile": "/home/dombayli/AcdProject/Project/wwwroot/event.js",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/event.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1029,7 +1029,7 @@
     },
     {
       "Route": "event.w7vtlv6tb4.js.gz",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1082,7 +1082,7 @@
     },
     {
       "Route": "style.css",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1137,7 +1137,7 @@
     },
     {
       "Route": "style.css",
-      "AssetFile": "/home/dombayli/AcdProject/Project/wwwroot/style.css",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1174,7 +1174,7 @@
     },
     {
       "Route": "style.css.gz",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1219,7 +1219,7 @@
     },
     {
       "Route": "style.f2aduipssc.css",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1282,7 +1282,7 @@
     },
     {
       "Route": "style.f2aduipssc.css",
-      "AssetFile": "/home/dombayli/AcdProject/Project/wwwroot/style.css",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1327,7 +1327,7 @@
     },
     {
       "Route": "style.f2aduipssc.css.gz",
-      "AssetFile": "/home/dombayli/AcdProject/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

@@ -58,7 +58,7 @@
             const mappingArea = document.getElementById("mappingArea");
             
             // Build SP options
-            let spOptions = `<option value="">SP Seçin...</option>`;
+            let spOptions = ``;
             // SP'leri listelerken, tasarımı yapılmış olanları vurgulayabiliriz
             procedures.forEach(p => {
                 const isDesigned = andonSpDesigns[p.Id] || andonSpDesigns[p.Name] ? " (Tasarımı Var)" : "";
@@ -69,18 +69,21 @@
                 const slotId = idx + 1;
                 
                 // Önceden yapılmış eşleşme varsa onu bul
-                let preSelectedSp = "";
+                let preSelectedSps = [];
                 if (draft.mapping) {
                     const existingMap = draft.mapping.find(m => m.machineId === machine.id);
-                    if (existingMap) preSelectedSp = existingMap.spId;
+                    if (existingMap) {
+                        preSelectedSps = existingMap.spIds || (existingMap.spId ? [existingMap.spId] : []);
+                    }
                 }
 
                 const slotHtml = `
                     <div class="col-md-6">
                         <div class="p-3 border border-secondary rounded bg-dark">
                             <h6 class="text-light">${machine.name}</h6>
+                            <small class="text-muted" style="font-size: 0.75rem;">(Birden fazla seçmek için CTRL tuşuna basılı tutun)</small>
                             <input type="hidden" class="mapping-machine" data-slot="${slotId}" value="${machine.id}" />
-                            <select class="form-select bg-dark text-light border-secondary mapping-sp mt-2" data-slot="${slotId}">
+                            <select class="form-select bg-dark text-light border-secondary mapping-sp mt-2" multiple size="3" data-slot="${slotId}">
                                 ${spOptions}
                             </select>
                         </div>
@@ -89,9 +92,15 @@
                 mappingArea.insertAdjacentHTML('beforeend', slotHtml);
                 
                 // Set pre-selected value
-                if (preSelectedSp) {
+                if (preSelectedSps.length > 0) {
                     const select = mappingArea.querySelector(`.mapping-sp[data-slot="${slotId}"]`);
-                    if (select) select.value = preSelectedSp;
+                    if (select) {
+                        Array.from(select.options).forEach(opt => {
+                            if (preSelectedSps.includes(opt.value)) {
+                                opt.selected = true;
+                            }
+                        });
+                    }
                 }
             });
 
@@ -103,11 +112,14 @@
                     const slotId = machineInput.getAttribute("data-slot");
                     const spSelect = document.querySelector(`.mapping-sp[data-slot="${slotId}"]`);
                     
-                    if (spSelect.value !== "") {
+                    const selectedSpIds = Array.from(spSelect.selectedOptions).map(opt => opt.value).filter(val => val !== "");
+                    
+                    if (selectedSpIds.length > 0) {
                         mappings.push({
                             slot: slotId,
                             machineId: machineInput.value,
-                            spId: spSelect.value
+                            spIds: selectedSpIds,
+                            spId: selectedSpIds[0] // for backwards compatibility
                         });
                     } else {
                         hasEmpty = true;
