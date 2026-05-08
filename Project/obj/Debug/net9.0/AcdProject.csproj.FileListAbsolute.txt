@@ -95,7 +95,6 @@
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/AcdProject.RazorAssemblyInfo.cs
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/AcdProject.sourcelink.json
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/scopedcss/bundle/AcdProject.styles.css
-/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/staticwebassets.build.json
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/staticwebassets.development.json
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -111,6 +110,14 @@
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/AcdProject.pdb
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/AcdProject.genruntimeconfig.cache
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/ref/AcdProject.dll
-/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz
-/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-oc194j2vlx.gz
-/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-ex5gxyvzi4.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/1n8ue16y0o-kz8sjweurp.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/v9ki2b3tyg-bgf2qtx2sw.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/sr8c95ro3x-wk425b90n0.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/ub92h3t3ki-bbof4zfax9.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/rnnbye0lwl-96epv6zpk0.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/3m2hzty1m4-s4j3crgyr8.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/iy248x46gg-u83qy6fhur.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/d45xehjddr-6k00dyq22v.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/0nem216pnf-ex5gxyvzi4.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/x0zykb2t9c-c5ve0mvkbp.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/mscfn2lo3u-w7vtlv6tb4.gz

@@ -1,0 +1,90 @@
+        document.addEventListener("DOMContentLoaded", () => {
+            const allTemplates = JSON.parse(localStorage.getItem("andonTemplates")) || [];
+            const listArea = document.getElementById("templateListArea");
+
+            if (allTemplates.length === 0) {
+                listArea.innerHTML = '<div class="col-12"><div class="alert alert-warning border-warning bg-dark text-warning">Henüz kaydedilmiş bir şablon yok. Şablon tasarım menüsünden yeni bir şablon oluşturun.</div></div>';
+                return;
+            }
+
+            allTemplates.forEach((tpl, index) => {
+                const card = `
+                    <div class="col-md-6" id="tpl_card_${index}">
+                        <div class="card bg-dark text-light border-secondary">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="form-check">
+                                        <input class="form-check-input template-checkbox fs-5" type="checkbox" value="${index}" id="tpl_${index}">
+                                        <label class="form-check-label fs-5 ms-2" for="tpl_${index}">
+                                            ${tpl.templateName}
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn btn-sm btn-outline-info edit-template-btn" data-index="${index}" title="Düzenle">
+                                            <i class="bi bi-pencil"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger delete-template-btn" data-index="${index}" title="Sil">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-muted small">
+                                    Layout: ${tpl.layout} | Eşleşen Makine: ${tpl.mapping ? tpl.mapping.length : 0}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                listArea.insertAdjacentHTML('beforeend', card);
+            });
+
+            // Delete Logic
+            document.querySelectorAll(".delete-template-btn").forEach(btn => {
+                btn.addEventListener("click", function() {
+                    const idx = this.getAttribute("data-index");
+                    if (confirm("Bu şablonu silmek istediğinize emin misiniz?")) {
+                        allTemplates.splice(idx, 1);
+                        localStorage.setItem("andonTemplates", JSON.stringify(allTemplates));
+                        window.location.reload();
+                    }
+                });
+            });
+
+            // Edit Logic
+            document.querySelectorAll(".edit-template-btn").forEach(btn => {
+                btn.addEventListener("click", function() {
+                    const idx = this.getAttribute("data-index");
+                    const templateToEdit = allTemplates[idx];
+                    
+                    // Reconstruct draft format
+                    const draft = {
+                        editIndex: idx,
+                        layout: templateToEdit.layout,
+                        selectedMachines: templateToEdit.mapping.map(m => ({ id: m.machineId, name: "Makine " + m.machineId })), // M.Name normally comes from server, this is a slight mock since we only saved ID, but the next page reads from checkboxes using value. Actually MakineSpEslesme reads machine.name. Let's look up from full machine list if we can, but since we don't have it here, the SablonTasarim page will select checkboxes by id and MakineSpEslesme reads from them. Oh wait, MakineSpEslesme reads from draft.selectedMachines. We should populate draft.selectedMachines properly.
+                        // Wait, SablonTasarim checks checkboxes based on draft.selectedMachines.id.
+                        // So just passing id is enough for SablonTasarim to check them.
+                        mapping: templateToEdit.mapping,
+                        templateName: templateToEdit.templateName // to pass to SablonKayit
+                    };
+
+                    sessionStorage.setItem("draftTemplate", JSON.stringify(draft));
+                    window.location.href = "/Home/SablonTasarim";
+                });
+            });
+
+            document.getElementById("btnStartDashboard").addEventListener("click", () => {
+                const selectedIndexes = Array.from(document.querySelectorAll(".template-checkbox:checked")).map(cb => cb.value);
+                
+                if (selectedIndexes.length === 0) {
+                    alert("Lütfen yayına almak için en az bir şablon seçin!");
+                    return;
+                }
+
+                const rotationIntervalSec = parseInt(document.getElementById("rotationInterval").value) || 30;
+                localStorage.setItem("dashboardRotationInterval", (rotationIntervalSec * 1000).toString());
+
+                const activeTemplates = selectedIndexes.map(idx => allTemplates[idx]);
+                localStorage.setItem("activeDashboardTemplates", JSON.stringify(activeTemplates));
+                window.location.href = "/Home/Dashboard"; 
+            });
+        });

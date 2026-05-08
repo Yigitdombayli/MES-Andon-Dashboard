@@ -1,20 +1,48 @@
 {
   "Files": [
     {
-      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.css",
-      "PackagePath": "staticwebassets/dashboard.css"
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/css/dashboard.css",
+      "PackagePath": "staticwebassets/css/dashboard.css"
     },
     {
-      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js",
-      "PackagePath": "staticwebassets/dashboard.js"
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/css/layout.css",
+      "PackagePath": "staticwebassets/css/layout.css"
     },
     {
-      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/event.js",
-      "PackagePath": "staticwebassets/event.js"
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
     },
     {
-      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css",
-      "PackagePath": "staticwebassets/style.css"
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/js/dashboard.js",
+      "PackagePath": "staticwebassets/js/dashboard.js"
+    },
+    {
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/js/dashboarda-aktar.js",
+      "PackagePath": "staticwebassets/js/dashboarda-aktar.js"
+    },
+    {
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/js/event.js",
+      "PackagePath": "staticwebassets/js/event.js"
+    },
+    {
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/js/layout.js",
+      "PackagePath": "staticwebassets/js/layout.js"
+    },
+    {
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/js/makine-sp-eslesme.js",
+      "PackagePath": "staticwebassets/js/makine-sp-eslesme.js"
+    },
+    {
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/js/sablon-kayit.js",
+      "PackagePath": "staticwebassets/js/sablon-kayit.js"
+    },
+    {
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/js/sablon-tasarim.js",
+      "PackagePath": "staticwebassets/js/sablon-tasarim.js"
+    },
+    {
+      "Id": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/js/sp-tasarim.js",
+      "PackagePath": "staticwebassets/js/sp-tasarim.js"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.AcdProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
