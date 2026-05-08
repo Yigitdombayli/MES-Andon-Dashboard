@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (AcdProject)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Project/bin/Debug/net9.0/AcdProject.dll", // .NET sürümünüze göre net6.0/net8.0 vb. kontrol edin
+            "args": [],
+            "cwd": "${workspaceFolder}/Project",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}

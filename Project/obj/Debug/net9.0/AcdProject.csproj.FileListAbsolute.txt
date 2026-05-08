@@ -96,7 +96,6 @@
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/AcdProject.sourcelink.json
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/scopedcss/bundle/AcdProject.styles.css
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/67up4e1698-w7vtlv6tb4.gz
-/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/staticwebassets.build.json
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/staticwebassets.development.json
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -113,4 +112,5 @@
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/AcdProject.genruntimeconfig.cache
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/ref/AcdProject.dll
 /home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz
-/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-oc194j2vlx.gz
+/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-ex5gxyvzi4.gz

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qsm1eDVcToJzSbPQ7OjL7kAj9x88nTgvyZ7za+8Om/s=",
+  "Hash": "LBzVC0Sxr4lXWYy2toO4/c9hbnkdGorRo4j7gL9dHkA=",
   "Source": "AcdProject",
   "BasePath": "_content/AcdProject",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-ex5gxyvzi4.gz",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
       "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AcdProject",
-      "RelativePath": "style#[.{fingerprint=f2aduipssc}]?.css.gz",
+      "RelativePath": "style#[.{fingerprint=ex5gxyvzi4}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "khny7yxa2n",
-      "Integrity": "mJXspA8P67LfM8gnWKNWVhL06Yw6jloeFoqqSqnWgaE=",
+      "Fingerprint": "er5q3bszo2",
+      "Integrity": "VvGCv+VDUpWK21Kar8TUv5KChw2mtbe8CclyqVyTUtI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css"
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/event.js"
     },
     {
-      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
+      "Identity": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-oc194j2vlx.gz",
       "SourceId": "AcdProject",
       "SourceType": "Discovered",
       "ContentRoot": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AcdProject",
-      "RelativePath": "dashboard#[.{fingerprint=4jr1x16bsw}]?.js.gz",
+      "RelativePath": "dashboard#[.{fingerprint=oc194j2vlx}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0rhr9kww43",
-      "Integrity": "nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=",
+      "Fingerprint": "1w8eefu1xj",
+      "Integrity": "f1Hw67zBrNObE2oAcJHb8JiQ7afOi846huqBJMFLzeM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4jr1x16bsw",
-      "Integrity": "YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=",
+      "Fingerprint": "oc194j2vlx",
+      "Integrity": "GP+n391GussrSZ92e2RCpnPU9zdKHmHoqelyEX0u+rQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/dashboard.js"
@@ -178,175 +178,14 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f2aduipssc",
-      "Integrity": "N2pNpwt9aiNlVxt2tB7Hx7AqZ8M8K8f3pwWQckSktik=",
+      "Fingerprint": "ex5gxyvzi4",
+      "Integrity": "ArsqodmGQWd+8tyY0Hug+9ECDn7V7i19e3EY90wFKO4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/style.css"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "dashboard.4jr1x16bsw.js",
-      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000355366027"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2813"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 06 May 2026 10:59:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4jr1x16bsw"
-        },
-        {
-          "Name": "label",
-          "Value": "dashboard.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50="
-        }
-      ]
-    },
-    {
-      "Route": "dashboard.4jr1x16bsw.js",
-      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8341"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 06 May 2026 10:59:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4jr1x16bsw"
-        },
-        {
-          "Name": "label",
-          "Value": "dashboard.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50="
-        }
-      ]
-    },
-    {
-      "Route": "dashboard.4jr1x16bsw.js.gz",
-      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2813"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 06 May 2026 10:59:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4jr1x16bsw"
-        },
-        {
-          "Name": "label",
-          "Value": "dashboard.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s="
-        }
-      ]
-    },
     {
       "Route": "dashboard.css",
       "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/tzzp4zx537-rjxmdnswwr.gz",
@@ -486,12 +325,12 @@
     },
     {
       "Route": "dashboard.js",
-      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-oc194j2vlx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000355366027"
+          "Quality": "0.000352112676"
         }
       ],
       "ResponseHeaders": [
@@ -501,15 +340,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2813"
+          "Value": "2839"
         },
         {
           "Name": "ETag",
-          "Value": "\"nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=\""
+          "Value": "\"f1Hw67zBrNObE2oAcJHb8JiQ7afOi846huqBJMFLzeM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 06 May 2026 10:59:34 GMT"
+          "Value": "Fri, 08 May 2026 12:10:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -529,13 +368,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=\""
+          "Value": "W/\"GP+n391GussrSZ92e2RCpnPU9zdKHmHoqelyEX0u+rQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50="
+          "Value": "sha256-GP+n391GussrSZ92e2RCpnPU9zdKHmHoqelyEX0u+rQ="
         }
       ]
     },
@@ -550,7 +389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8341"
+          "Value": "8416"
         },
         {
           "Name": "Content-Type",
@@ -558,11 +397,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50=\""
+          "Value": "\"GP+n391GussrSZ92e2RCpnPU9zdKHmHoqelyEX0u+rQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 06 May 2026 10:59:34 GMT"
+          "Value": "Fri, 08 May 2026 12:10:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -572,13 +411,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YDnzLUzLlgn2YRREm9xET4BP/X5ewmy8bgTMm8OkZ50="
+          "Value": "sha256-GP+n391GussrSZ92e2RCpnPU9zdKHmHoqelyEX0u+rQ="
         }
       ]
     },
     {
       "Route": "dashboard.js.gz",
-      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-4jr1x16bsw.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-oc194j2vlx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -587,7 +426,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2813"
+          "Value": "2839"
         },
         {
           "Name": "Content-Type",
@@ -595,11 +434,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s=\""
+          "Value": "\"f1Hw67zBrNObE2oAcJHb8JiQ7afOi846huqBJMFLzeM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 06 May 2026 10:59:34 GMT"
+          "Value": "Fri, 08 May 2026 12:10:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -617,7 +456,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nAvZkFPR83J6vgn8AWSzrgVpGYBW9eSoA0tpaWM8a7s="
+          "Value": "sha256-f1Hw67zBrNObE2oAcJHb8JiQ7afOi846huqBJMFLzeM="
+        }
+      ]
+    },
+    {
+      "Route": "dashboard.oc194j2vlx.js",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-oc194j2vlx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000352112676"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2839"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f1Hw67zBrNObE2oAcJHb8JiQ7afOi846huqBJMFLzeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 May 2026 12:10:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GP+n391GussrSZ92e2RCpnPU9zdKHmHoqelyEX0u+rQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oc194j2vlx"
+        },
+        {
+          "Name": "label",
+          "Value": "dashboard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GP+n391GussrSZ92e2RCpnPU9zdKHmHoqelyEX0u+rQ="
+        }
+      ]
+    },
+    {
+      "Route": "dashboard.oc194j2vlx.js",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GP+n391GussrSZ92e2RCpnPU9zdKHmHoqelyEX0u+rQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 May 2026 12:10:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oc194j2vlx"
+        },
+        {
+          "Name": "label",
+          "Value": "dashboard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GP+n391GussrSZ92e2RCpnPU9zdKHmHoqelyEX0u+rQ="
+        }
+      ]
+    },
+    {
+      "Route": "dashboard.oc194j2vlx.js.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/7kpfjma3y3-oc194j2vlx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f1Hw67zBrNObE2oAcJHb8JiQ7afOi846huqBJMFLzeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 May 2026 12:10:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oc194j2vlx"
+        },
+        {
+          "Name": "label",
+          "Value": "dashboard.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f1Hw67zBrNObE2oAcJHb8JiQ7afOi846huqBJMFLzeM="
         }
       ]
     },
@@ -1082,12 +1082,12 @@
     },
     {
       "Route": "style.css",
-      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-ex5gxyvzi4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000896057348"
+          "Quality": "0.000929368030"
         }
       ],
       "ResponseHeaders": [
@@ -1097,15 +1097,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1115"
+          "Value": "1075"
         },
         {
           "Name": "ETag",
-          "Value": "\"mJXspA8P67LfM8gnWKNWVhL06Yw6jloeFoqqSqnWgaE=\""
+          "Value": "\"VvGCv+VDUpWK21Kar8TUv5KChw2mtbe8CclyqVyTUtI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Apr 2026 11:59:23 GMT"
+          "Value": "Fri, 08 May 2026 12:10:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1125,13 +1125,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"N2pNpwt9aiNlVxt2tB7Hx7AqZ8M8K8f3pwWQckSktik=\""
+          "Value": "W/\"ArsqodmGQWd+8tyY0Hug+9ECDn7V7i19e3EY90wFKO4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N2pNpwt9aiNlVxt2tB7Hx7AqZ8M8K8f3pwWQckSktik="
+          "Value": "sha256-ArsqodmGQWd+8tyY0Hug+9ECDn7V7i19e3EY90wFKO4="
         }
       ]
     },
@@ -1146,7 +1146,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3436"
+          "Value": "3353"
         },
         {
           "Name": "Content-Type",
@@ -1154,11 +1154,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N2pNpwt9aiNlVxt2tB7Hx7AqZ8M8K8f3pwWQckSktik=\""
+          "Value": "\"ArsqodmGQWd+8tyY0Hug+9ECDn7V7i19e3EY90wFKO4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Apr 2026 11:59:23 GMT"
+          "Value": "Fri, 08 May 2026 12:10:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1168,13 +1168,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N2pNpwt9aiNlVxt2tB7Hx7AqZ8M8K8f3pwWQckSktik="
+          "Value": "sha256-ArsqodmGQWd+8tyY0Hug+9ECDn7V7i19e3EY90wFKO4="
         }
       ]
     },
     {
       "Route": "style.css.gz",
-      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-ex5gxyvzi4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1183,7 +1183,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1115"
+          "Value": "1075"
         },
         {
           "Name": "Content-Type",
@@ -1191,11 +1191,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mJXspA8P67LfM8gnWKNWVhL06Yw6jloeFoqqSqnWgaE=\""
+          "Value": "\"VvGCv+VDUpWK21Kar8TUv5KChw2mtbe8CclyqVyTUtI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Apr 2026 11:59:23 GMT"
+          "Value": "Fri, 08 May 2026 12:10:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1213,18 +1213,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mJXspA8P67LfM8gnWKNWVhL06Yw6jloeFoqqSqnWgaE="
+          "Value": "sha256-VvGCv+VDUpWK21Kar8TUv5KChw2mtbe8CclyqVyTUtI="
         }
       ]
     },
     {
-      "Route": "style.f2aduipssc.css",
-      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "Route": "style.ex5gxyvzi4.css",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-ex5gxyvzi4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000896057348"
+          "Quality": "0.000929368030"
         }
       ],
       "ResponseHeaders": [
@@ -1234,15 +1234,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1115"
+          "Value": "1075"
         },
         {
           "Name": "ETag",
-          "Value": "\"mJXspA8P67LfM8gnWKNWVhL06Yw6jloeFoqqSqnWgaE=\""
+          "Value": "\"VvGCv+VDUpWK21Kar8TUv5KChw2mtbe8CclyqVyTUtI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Apr 2026 11:59:23 GMT"
+          "Value": "Fri, 08 May 2026 12:10:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1262,13 +1262,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"N2pNpwt9aiNlVxt2tB7Hx7AqZ8M8K8f3pwWQckSktik=\""
+          "Value": "W/\"ArsqodmGQWd+8tyY0Hug+9ECDn7V7i19e3EY90wFKO4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f2aduipssc"
+          "Value": "ex5gxyvzi4"
         },
         {
           "Name": "label",
@@ -1276,12 +1276,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N2pNpwt9aiNlVxt2tB7Hx7AqZ8M8K8f3pwWQckSktik="
+          "Value": "sha256-ArsqodmGQWd+8tyY0Hug+9ECDn7V7i19e3EY90wFKO4="
         }
       ]
     },
     {
-      "Route": "style.f2aduipssc.css",
+      "Route": "style.ex5gxyvzi4.css",
       "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/wwwroot/style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1291,7 +1291,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3436"
+          "Value": "3353"
         },
         {
           "Name": "Content-Type",
@@ -1299,11 +1299,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N2pNpwt9aiNlVxt2tB7Hx7AqZ8M8K8f3pwWQckSktik=\""
+          "Value": "\"ArsqodmGQWd+8tyY0Hug+9ECDn7V7i19e3EY90wFKO4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Apr 2026 11:59:23 GMT"
+          "Value": "Fri, 08 May 2026 12:10:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1313,7 +1313,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f2aduipssc"
+          "Value": "ex5gxyvzi4"
         },
         {
           "Name": "label",
@@ -1321,13 +1321,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N2pNpwt9aiNlVxt2tB7Hx7AqZ8M8K8f3pwWQckSktik="
+          "Value": "sha256-ArsqodmGQWd+8tyY0Hug+9ECDn7V7i19e3EY90wFKO4="
         }
       ]
     },
     {
-      "Route": "style.f2aduipssc.css.gz",
-      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-f2aduipssc.gz",
+      "Route": "style.ex5gxyvzi4.css.gz",
+      "AssetFile": "/home/dombayli/MES-Andon-Dashboard/Project/obj/Debug/net9.0/compressed/2721exbsvv-ex5gxyvzi4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1336,7 +1336,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1115"
+          "Value": "1075"
         },
         {
           "Name": "Content-Type",
@@ -1344,11 +1344,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mJXspA8P67LfM8gnWKNWVhL06Yw6jloeFoqqSqnWgaE=\""
+          "Value": "\"VvGCv+VDUpWK21Kar8TUv5KChw2mtbe8CclyqVyTUtI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Apr 2026 11:59:23 GMT"
+          "Value": "Fri, 08 May 2026 12:10:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1366,7 +1366,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f2aduipssc"
+          "Value": "ex5gxyvzi4"
         },
         {
           "Name": "label",
@@ -1374,7 +1374,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mJXspA8P67LfM8gnWKNWVhL06Yw6jloeFoqqSqnWgaE="
+          "Value": "sha256-VvGCv+VDUpWK21Kar8TUv5KChw2mtbe8CclyqVyTUtI="
         }
       ]
     }

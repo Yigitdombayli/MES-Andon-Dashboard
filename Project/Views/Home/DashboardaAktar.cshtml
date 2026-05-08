@@ -22,7 +22,15 @@
         <div class="col-md-4">
             <div class="alert alert-info border-secondary bg-dark text-light">
                 <i class="bi bi-info-circle me-2"></i>
-                <strong>Bilgi:</strong> Birden fazla şablon seçerseniz, dashboard ekranı bu şablonlar arasında 60 saniyede bir otomatik geçiş yapacaktır.
+                <strong>Bilgi:</strong> Birden fazla şablon seçerseniz, dashboard ekranı bu şablonlar arasında belirlediğiniz sürede bir otomatik geçiş yapacaktır.
+            </div>
+            <div class="panel p-3 border border-secondary rounded mb-3 bg-dark">
+                <label for="rotationInterval" class="form-label text-warning fw-bold">Şablon Geçiş Süresi (Saniye)</label>
+                <div class="input-group">
+                    <input type="number" id="rotationInterval" class="form-control bg-dark text-light border-secondary" value="30" min="5" step="1">
+                    <span class="input-group-text bg-secondary text-light border-secondary">Sn</span>
+                </div>
+                <small class="text-muted mt-2 d-block">Şablonlar arası ve makine içi SP rotasyon sürelerini belirler.</small>
             </div>
             <a href="/Home/SablonTasarim" class="btn btn-outline-light w-100">Yeni Şablon Tasarla</a>
         </div>
@@ -112,6 +120,9 @@
                     alert("Lütfen yayına almak için en az bir şablon seçin!");
                     return;
                 }
+
+                const rotationIntervalSec = parseInt(document.getElementById("rotationInterval").value) || 30;
+                localStorage.setItem("dashboardRotationInterval", (rotationIntervalSec * 1000).toString());
 
                 const activeTemplates = selectedIndexes.map(idx => allTemplates[idx]);
                 localStorage.setItem("activeDashboardTemplates", JSON.stringify(activeTemplates));

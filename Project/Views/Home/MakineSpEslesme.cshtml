@@ -57,14 +57,6 @@
 
             const mappingArea = document.getElementById("mappingArea");
             
-            // Build SP options
-            let spOptions = ``;
-            // SP'leri listelerken, tasarımı yapılmış olanları vurgulayabiliriz
-            procedures.forEach(p => {
-                const isDesigned = andonSpDesigns[p.Id] || andonSpDesigns[p.Name] ? " (Tasarımı Var)" : "";
-                spOptions += `<option value="${p.Id}">${p.Name}${isDesigned}</option>`;
-            });
-
             draft.selectedMachines.forEach((machine, idx) => {
                 const slotId = idx + 1;
                 
@@ -77,15 +69,30 @@
                     }
                 }
 
+                let spCheckboxesHtml = ``;
+                procedures.forEach(p => {
+                    const isDesigned = andonSpDesigns[p.Id] || andonSpDesigns[p.Name] ? ` <span class="badge bg-success ms-2 text-white" style="font-size: 0.65em;">Tasarımı Var</span>` : "";
+                    spCheckboxesHtml += `
+                        <div class="form-check mb-2">
+                            <input class="form-check-input mapping-sp-checkbox border-secondary" style="background-color: #2b3035; cursor: pointer;" type="checkbox" value="${p.Id}" id="sp_${p.Id}_slot_${slotId}" data-slot="${slotId}">
+                            <label class="form-check-label text-light w-100" for="sp_${p.Id}_slot_${slotId}" style="cursor: pointer;">
+                                ${p.Name}${isDesigned}
+                            </label>
+                        </div>
+                    `;
+                });
+
                 const slotHtml = `
                     <div class="col-md-6">
-                        <div class="p-3 border border-secondary rounded bg-dark">
-                            <h6 class="text-light">${machine.name}</h6>
-                            <small class="text-muted" style="font-size: 0.75rem;">(Birden fazla seçmek için CTRL tuşuna basılı tutun)</small>
+                        <div class="p-3 border border-secondary rounded bg-dark h-100 d-flex flex-column">
+                            <div class="mb-3 border-bottom border-secondary pb-2">
+                                <h6 class="text-info mb-1"><i class="bi bi-display me-2"></i>${machine.name}</h6>
+                                <small class="text-muted" style="font-size: 0.8rem;">Eşleştirilecek SP'leri seçin</small>
+                            </div>
                             <input type="hidden" class="mapping-machine" data-slot="${slotId}" value="${machine.id}" />
-                            <select class="form-select bg-dark text-light border-secondary mapping-sp mt-2" multiple size="3" data-slot="${slotId}">
-                                ${spOptions}
-                            </select>
+                            <div class="sp-checkbox-container flex-grow-1" style="max-height: 250px; overflow-y: auto; padding-right: 10px;">
+                                ${spCheckboxesHtml}
+                            </div>
                         </div>
                     </div>
                 `;
@@ -93,14 +100,12 @@
                 
                 // Set pre-selected value
                 if (preSelectedSps.length > 0) {
-                    const select = mappingArea.querySelector(`.mapping-sp[data-slot="${slotId}"]`);
-                    if (select) {
-                        Array.from(select.options).forEach(opt => {
-                            if (preSelectedSps.includes(opt.value)) {
-                                opt.selected = true;
-                            }
-                        });
-                    }
+                    const checkboxes = mappingArea.querySelectorAll(`.mapping-sp-checkbox[data-slot="${slotId}"]`);
+                    checkboxes.forEach(cb => {
+                        if (preSelectedSps.includes(cb.value)) {
+                            cb.checked = true;
+                        }
+                    });
                 }
             });
 
@@ -110,9 +115,9 @@
 
                 document.querySelectorAll(".mapping-machine").forEach((machineInput) => {
                     const slotId = machineInput.getAttribute("data-slot");
-                    const spSelect = document.querySelector(`.mapping-sp[data-slot="${slotId}"]`);
+                    const selectedCheckboxes = document.querySelectorAll(`.mapping-sp-checkbox[data-slot="${slotId}"]:checked`);
                     
-                    const selectedSpIds = Array.from(spSelect.selectedOptions).map(opt => opt.value).filter(val => val !== "");
+                    const selectedSpIds = Array.from(selectedCheckboxes).map(cb => cb.value);
                     
                     if (selectedSpIds.length > 0) {
                         mappings.push({

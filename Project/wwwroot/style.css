@@ -74,7 +74,7 @@ body {
 
 #incomingDataPool .grid-stack-item {
     position: relative !important;
-    width: clamp(80px, 8vw, 120px) !important; 
+    width: 8vw !important; 
     aspect-ratio: 1 / 1 !important; 
     height: auto !important; 
     margin: 0 !important;
@@ -92,7 +92,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: clamp(0.8rem, 1vw, 1.2rem); 
+    font-size: 1vw; 
 }
 
 #incomingDataPool {
@@ -105,7 +105,7 @@ body {
 
 #incomingDataPool .grid-stack-item {
     position: relative !important; 
-    width: clamp(80px, 7vw, 300px) !important; 
+    width: 7vw !important; 
     aspect-ratio: 1 / 1 !important; 
     height: auto !important; 
     margin: 0 !important;
@@ -123,7 +123,7 @@ body {
     text-align: center !important;
     padding: 0.2vw !important;
     word-break: break-word !important;
-    font-size: clamp(0.7rem, 0.9vw, 2vw) !important; 
+    font-size: 0.9vw !important; 
     color: #e0e0e0 !important;
     line-height: 1.2;
 }
